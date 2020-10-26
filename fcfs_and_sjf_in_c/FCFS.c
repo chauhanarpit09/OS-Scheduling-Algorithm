@@ -29,7 +29,7 @@ void main(){
     while(j!=n){
         idx=-1;
         m = 100000;
-        for(int i=0;i<n;i++){
+        for(i=0;i<n;i++){
             if(p[i].at<m && iscompleted[i]!=-1){
                 m = p[i].at;
                 idx = i;
