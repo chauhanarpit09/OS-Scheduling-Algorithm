@@ -7,7 +7,7 @@ struct Process{
 };
 
 void main(){
-    int n,currt=0,i,j=0,maxct=-1,sumbt=0,iscompleted[max],idx,m;
+    int n,currt=0,i,j=0,maxct=-1,sumbt=0,iscompleted[max]={0},idx,m;
     struct Process p[max];
     float total_tat = 0,total_wt = 0,total_rt =0,total_it=0;
     printf("Enter Number of Process : ");
